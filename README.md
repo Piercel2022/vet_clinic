@@ -2,8 +2,7 @@
 
 
 ## Description
-In this project I add some new tables and add foreign key columns to your existing animals table to model one-to-many relationships. Afterward, I use JOIN to query the data.
-
+In this project, I add some many-to-many relationships and write more complex queries to use them to answer questions.
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
