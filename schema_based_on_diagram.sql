@@ -32,11 +32,7 @@ CREATE TABLE medical_histories_treatments(
 
   CONSTRAINT fk_medical_history_id
     FOREIGN KEY(medical_history_id)
-	  REFERENCES medical_histories(id),
-
-  CONSTRAINT fk_treatments_id
-      FOREIGN KEY(treatments_id)
-	  REFERENCES treatments(id)  
+	  REFERENCES medical_histories(id),  
 );
 
 CREATE TABLE invoices(
@@ -48,7 +44,11 @@ CREATE TABLE invoices(
 
   CONSTRAINT fk_medical_history_id
       FOREIGN KEY(medical_history_id) 
-	  REFERENCES medical_histories(id)  
+	  REFERENCES medical_histories(id) 
+
+  CONSTRAINT fk_treatments
+      FOREIGN KEY(treatments_id)
+	  REFERENCES treatments(id) 
 
 );
 
