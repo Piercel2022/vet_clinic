@@ -67,6 +67,6 @@ CREATE TABLE invoice_items(
 	  REFERENCES invoices(id)  
 );
 
-CREATE INDEX invoice_items_invoice_id ON invoice_items(invoice_id);
+CREATE INDEX invoice_items_treatements_id_index ON invoice_items(id);
 CREATE INDEX medical_histories_treatments_treatments_id ON medical_histories_treatments(treatments_id);
 CREATE INDEX medical_histories_treatments_medical_history_id ON medical_histories_treatments(medical_history_id);
