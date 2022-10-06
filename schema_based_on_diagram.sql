@@ -39,9 +39,6 @@ CREATE TABLE medical_histories_treatments(
 	  REFERENCES treatments(id)  
 );
 
-CREATE INDEX medical_histories_treatments_treatments_id ON medical_histories_treatments(treatments_id);
-CREATE INDEX medical_histories_treatments_medical_history_id ON medical_histories_treatments(medical_history_id);
-
 CREATE TABLE invoices(
   id            INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
   total_amount          decimal,
@@ -71,3 +68,5 @@ CREATE TABLE invoice_items(
 );
 
 CREATE INDEX invoice_items_invoice_id ON invoice_items(invoice_id);
+CREATE INDEX medical_histories_treatments_treatments_id ON medical_histories_treatments(treatments_id);
+CREATE INDEX medical_histories_treatments_medical_history_id ON medical_histories_treatments(medical_history_id);
