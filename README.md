@@ -1,8 +1,9 @@
-# VET CLINIC DATABASE
 
-## DESCRIPTION
-In this project i used a RDBMS ( Relational Data Base Management System) to create a table which will store information about animals  for a vet clinic.
+## Vet Clinic Database
 
+
+## Description
+In this project, I add some many-to-many relationships and write more complex queries to use them to answer questions.
 
 ## Getting Started
 
@@ -15,7 +16,8 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## Authors
 
-👤 **Author1**
+👤 ** pamphilemkp**
+
 
 - GitHub: [@githubhandle](https://github.com/pamphilemkp)
 - Twitter: [@twitterhandle](https://twitter.com/PamphileMusonda)
@@ -28,9 +30,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Twitter: [pier_celestin](https://twitter.com/pier_celestin)
 - LinkedIn: [piercelestin](https://linkedin.com/in/piercelestinmax)
 
+
 👤 **Patrick Maina**
 - GitHub: [@PNdunguMaina](https://github.com/PNdunguMaina)
 - LinkedIn: [Patrick Maina](https://www.linkedin.com/in/pndungumaina/)
+
 
 ## 🤝 Contributing
 
@@ -51,3 +55,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
