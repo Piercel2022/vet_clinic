@@ -51,11 +51,16 @@ CREATE TABLE invoices(
 
   CONSTRAINT fk_medical_history_id
       FOREIGN KEY(medical_history_id) 
-	  REFERENCES medical_histories(id)  
+	  REFERENCES medical_histories(id)
+
+   CONSTRAINT fk_treatments_id
+      FOREIGN KEY(treatments_id)
+	  REFERENCES treatments(id) 
 
 );
 
 CREATE INDEX invoices_medical_history_id ON invoices(medical_history_id);
+CREATE INDEX medical_histories_treatments_treatments_id ON medical_histories_treatments(treatments_id);
 
 CREATE TABLE invoice_items(
   id            INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
